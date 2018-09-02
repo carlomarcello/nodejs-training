@@ -4,7 +4,10 @@ function parseJSON(req, res, next) {
         // Load all the data
         var readData = '';
         req.on('readable', function () {
-            readData += req.read();
+            var tempRead = req.read();
+            if (tempRead != null) {    
+                readData += tempRead;
+            }
         });
 
         // Try to parse
