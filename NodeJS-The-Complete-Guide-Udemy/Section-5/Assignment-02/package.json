@@ -1,0 +1,17 @@
+{
+  "name": "assignment-02",
+  "version": "1.0.0",
+  "description": "Assignment 02",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "Carlo Marcello",
+  "license": "ISC"
+}
