@@ -16,6 +16,9 @@ npm install nodemon --save-dev
 // Instala o express.js em modo normal (vai para prod)
 npm install express --save
 
+// Instala os template engines EJS, Pug e Handlebars
+npm install --save ejs pug express-handlebar
+
 // Para que o debug seja reiniciado a cada alteração, incluir no arquivo launch.json
 // da pasta .vscode as seguintes propriedades (o arquivo é gerado com um template
 // automático quando é acessado o menu "Debug -> Add Configuration..."):

@@ -1,0 +1,19 @@
+<%- include('includes/head.ejs') %>
+<body>
+    <main>
+        <h1>Welcome to the <%= pageTitle %> page!</h1>
+
+        Registered users:<br>
+
+        <% if (users.length > 0) { %>
+            <ul>                
+                <% for (let user of users) { %>
+                    <li><%= user.username %></li>
+                <% } %>                
+            </ul>
+        <% } else { %>
+            No users found!
+        <% } %>
+    </main>
+</body>
+</html>

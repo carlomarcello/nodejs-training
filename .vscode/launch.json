@@ -3,12 +3,12 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": [        
+    "configurations": [
         {
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/NodeJS-The-Complete-Guide-Udemy\\Section-5\\10-using-a-helper-function\\app.js",            
+            "program": "C:\\Projetos\\nodejs-training\\NodeJS-The-Complete-Guide-Udemy\\Section-6\\Assignment-04\\app.js",
             "restart": true,
             "runtimeExecutable": "nodemon",
             "console": "integratedTerminal"
